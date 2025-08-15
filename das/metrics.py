@@ -17,5 +17,5 @@ def das_regression(y_true: np.ndarray, y_pred_original: np.ndarray, y_pred_synth
     r2_orig = r2_score(y_true, y_pred_original)
     r2_synth = r2_score(y_true, y_pred_synthetic)
     denom = r2_orig if abs(r2_orig) > eps else eps
-    das_value = ((r2_orig - r2_synth) / denom) * 100
+    das_value = 100 - ((abs(r2_orig - r2_synth) / denom) * 100)
     return das_value, r2_orig, r2_synth
