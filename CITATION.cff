@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this metric in your research, please cite the following paper."
+title: "Evaluating Normalizing Flow Model Variants for Supervised Tabular Data: A Comparative Analysis Using the Data Accuracy Score"
+authors:
+  - family-names: "Sachdeva"
+    given-names: "Pragati"
+  - family-names: "Malhotra"
+    given-names: "Amarjit"
+doi: "10.1016/j.procs.2025.04.271"
+version: "0.1.0"
+date-released: 2025-08-15
+url: "https://github.com/pragatischdv/data-accuracy-score"
